@@ -1,0 +1,23 @@
+{
+	"name"        : "tomjn/doctrine_boilerplate",
+	"description" : "Doctrine boilerplate plugin for WordPress.",
+	"keywords"    : ["wordpress", "doctrine", "boilerplate"],
+	"type"        : "wordpress-plugin",
+	"homepage"    : "https://tomjn.com",
+	"license"     : "GPL-2.0+",
+	"authors"     : [
+		{
+			"name"    : "Tom J Nowell",
+			"email"   : "contact@tomjn.com"
+		}
+	],
+	"require"     : {
+		"composer/installers"          : "~1.0",
+		"php"                          : ">=5.3",
+		"pimple/pimple"                : "~1.0",
+		"doctrine/orm"                 : "*"
+	},
+	"autoload"    : {
+		"classmap": ["php/"]
+	}
+}
