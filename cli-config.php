@@ -5,8 +5,9 @@
 
 
 require '../../../wp-config.php';
+require 'php/class.doctrine-plugin.php';
 
-$doctrine_plugin = new \Tomjn\Doctrine_Boilerplate\Freeagent_Plugin();
+$doctrine_plugin = new \Tomjn\doctrine_plugin\Doctrine_Plugin();
 
 // replace with mechanism to retrieve EntityManager in your app
 $em = $doctrine_plugin['entityManager'];
