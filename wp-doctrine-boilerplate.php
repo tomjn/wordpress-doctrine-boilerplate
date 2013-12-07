@@ -38,5 +38,5 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 
 global $doctrine_plugin;
 
-$doctrine_plugin = new Doctrine_Plugin();
+$doctrine_plugin = new \Tomjn\doctrine_plugin\Doctrine_Plugin();
 $doctrine_plugin->run();
